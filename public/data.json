@@ -3,7 +3,7 @@
     "id": "623de6436436e0017c1abb7e",
     "name": "Himu",
   
-    "price": "$220",
+    "price": "$85",
     "img": "https://upload.wikimedia.org/wikipedia/en/9/97/Himu-Humayun_Ahmed_%281993%29.jpg",
     "rating": "5 star",
     "writer": "Humayun Ahmed"
@@ -11,20 +11,20 @@
   
   {
     "id": "623de6436436e0017c1ab423",
-    "name": "Himu",
+    "name": "Podma Nodir Majhi",
   
-    "price": "$220",
-    "img": "http://placehold.it/32x32",
+    "price": "$120",
+    "img": "https://s3-ap-southeast-1.amazonaws.com/scrollstorage/1390582732-470_Book2.jpg",
     "rating": "4 star",
-    "writer": "Humayun Ahmed"
+    "writer": "Manik Bondhopadday"
   },
   
   {
     "id": "623de6436436e0017c1ac343",
-    "name": "Himu",
+    "name": "Misir Ali",
   
-    "price": "$220",
-    "img": "http://placehold.it/32x32",
+    "price": "$180",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYIYXwwsGmRUiF2zW970Z-t919AfLuqGH9UA&usqp=CAU",
     "rating": "4 star",
     "writer": "Humayun Ahmed"
   },

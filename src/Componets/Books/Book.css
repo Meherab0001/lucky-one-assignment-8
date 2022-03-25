@@ -1,0 +1,8 @@
+.book{
+    border: 2px solid gainsboro;
+}
+
+.book img{
+    width: 300px;
+    height: 300px;
+}
