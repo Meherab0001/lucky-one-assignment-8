@@ -38,7 +38,12 @@ const Booklist = () => {
                 }
             </div>
             <div className="book-cart">
-                <Cart cart={cart}></Cart>
+                <Cart 
+                cart={cart}
+              
+                
+                ></Cart>
+                
         
               
             </div>
