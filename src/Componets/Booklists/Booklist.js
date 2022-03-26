@@ -22,9 +22,18 @@ const Booklist = () => {
         newCart=[...cart,books]
        
         setCart(newCart)
+      
    
        
     }
+           
+
+    const choseOne=()=>{
+        const randomNumber=Math.floor(Math.random() * 9)
+        
+      
+    }
+
     const resetAll=()=>{
         let newCart=[]
         setCart(newCart)
@@ -48,7 +57,7 @@ const Booklist = () => {
             </div>
             <div className="book-cart">
                 <Cart 
-             
+              choseOne={ choseOne}
                 resetAll={resetAll}
                 cart={cart}
               
