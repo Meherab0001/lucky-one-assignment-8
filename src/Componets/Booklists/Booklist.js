@@ -15,16 +15,25 @@ const Booklist = () => {
         .then(data =>setBooks(data))
     },[])
 
-
+   
     const handleToAddCart =(books)=>{
-       
+     
         let newCart=[];
         newCart=[...cart,books]
        
         setCart(newCart)
-      
+   
        
     }
+    const resetAll=()=>{
+        let newCart=[]
+        setCart(newCart)
+
+        
+        
+    }
+
+  
     return (
         <div className='book-shop'>
         
@@ -39,6 +48,8 @@ const Booklist = () => {
             </div>
             <div className="book-cart">
                 <Cart 
+             
+                resetAll={resetAll}
                 cart={cart}
               
                 

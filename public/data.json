@@ -5,8 +5,7 @@
   
     "price": "$85",
     "img": "https://upload.wikimedia.org/wikipedia/en/9/97/Himu-Humayun_Ahmed_%281993%29.jpg",
-    "rating": "5 star",
-    "writer": "Humayun Ahmed"
+    "rating": "5 star"
   },
   
   {
@@ -15,8 +14,7 @@
   
     "price": "$120",
     "img": "https://s3-ap-southeast-1.amazonaws.com/scrollstorage/1390582732-470_Book2.jpg",
-    "rating": "4 star",
-    "writer": "Manik Bondhopadday"
+    "rating": "4 star"
   },
   
   {
@@ -25,98 +23,90 @@
   
     "price": "$180",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYIYXwwsGmRUiF2zW970Z-t919AfLuqGH9UA&usqp=CAU",
-    "rating": "4 star",
-    "writer": "Humayun Ahmed"
+    "rating": "4 star"
   },
   
   {
     "id": "623de6436436e0017c1a56443",
-    "name": "Himu",
+    "name": "Pother Pachali",
   
-    "price": "$220",
-    "img": "http://placehold.it/32x32",
-    "rating": "4 star",
-    "writer": "Humayun Ahmed"
+    "price": "$124",
+    "img": "https://qph.fs.quoracdn.net/main-qimg-4572379a58bfedcb669403ee1e0577e9.webp",
+    "rating": "4 star"
   },
   
   {
     "id": "623de6436436e0017c1af432",
-    "name": "Himu",
+    "name": "kopal Konda",
   
-    "price": "$220",
-    "img": "http://placehold.it/32x32",
-    "rating": "4 star",
-    "writer": "Humayun Ahmed"
+    "price": "$7",
+    "img": "https://www.the-daily-story.com/wp-content/uploads/2021/03/Kapalkumdala-1.jpg",
+    "rating": "4 star"
   },
   
   {
     "id": "623de6436436e0017c1asd421",
-    "name": "Himu",
+    "name": "Dev-das",
   
-    "price": "$220",
-    "img": "http://placehold.it/32x32",
-    "rating": "4 star",
-    "writer": "Humayun Ahmed"
+    "price": "$120",
+    "img": "https://www.the-daily-story.com/wp-content/uploads/2021/03/Devdas.jpg",
+    "rating": "4 star"
   },
   
   {
     "id": "623de6436436e0017c1ag632",
-    "name": "Himu",
+    "name": "Hajar Bochor Dhore",
   
-    "price": "$220",
-    "img": "http://placehold.it/32x32",
-    "rating": "4 star",
-    "writer": "Humayun Ahmed"
+    "price": "$170",
+    "img": "https://qph.fs.quoracdn.net/main-qimg-6673616902d48bedc9061a5670c5b86e-pjlq",
+    "rating": "4 star"
   },
   
   {
     "id": "623de6436436e0017c1an342",
-    "name": "Himu",
+    "name": "Rechare Your Down Bettary",
   
     "price": "$220",
-    "img": "http://placehold.it/32x32",
-    "rating": "4 star",
-    "writer": "Humayun Ahmed"
+    "img": "https://bdebooks.com/wp-content/uploads/2020/03/38124405._SY475_-185x278.jpg",
+    "rating": "4 star"
   },
   
   {
     "id": "623de6436436e0017c1ah5342",
-    "name": "Himu",
+    "name": "Programmin Er Chuddo Gusti",
   
-    "price": "$220",
-    "img": "http://placehold.it/32x32",
-    "rating": "4 star",
-    "writer": "Humayun Ahmed"
+    "price": "$200",
+    "img": "https://courstika.com/wp-content/uploads/2020/12/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%BE%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82-%E0%A6%8F%E0%A6%B0-%E0%A6%9A%E0%A7%8C%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A6%97%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BF-PDF-350x250.jpg",
+    "rating": "4 star"
   },
   
   {
     "id": "623de6436436e0017c1as532",
-    "name": "Himu",
+    "name": "Programming Er Bolod to Boss",
   
-    "price": "$220",
-    "img": "http://placehold.it/32x32",
-    "rating": "4 star",
-    "writer": "Humayun Ahmed"
+    "price": "$190",
+    "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/95512cdf1cf4_128993.jpg",
+    "rating": "4 star"
   },
   
   {
     "id": "623de6436436e0017c1ak423",
-    "name": "Himu",
+    "name": "Habluder Jonno Programming",
   
-    "price": "$220",
-    "img": "http://placehold.it/32x32",
-    "rating": "4 star",
-    "writer": "Humayun Ahmed"
+    "price": "$180",
+    "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/f840e17d7_140277.jpg",
+    "rating": "4 star"
+
   },
   
   {
     "id": "623de6436436e0017c1ak834",
-    "name": "Himu",
+    "name": "Sesher Kobita",
   
-    "price": "$220",
-    "img": "http://placehold.it/32x32",
-    "rating": "4 star",
-    "writer": "Humayun Ahmed"
+    "price": "$140",
+    "img": "https://d1jpltibqvso3j.cloudfront.net/images/product/39000/38273/250X360/38273.png",
+    "rating": "4 star"
+   
   }
   
   
