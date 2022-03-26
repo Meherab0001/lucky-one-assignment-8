@@ -1,17 +1,19 @@
 import React from 'react';
 import './Book.css'
 
-const Book = (prpos) => {
-    const{name,img,price}=prpos.book;
+const Book = ({ handleToAddCart,book}) => {
+
+
+    const{name,img,price,id}=book;
  
     return (
         <div className='book' >
         
                <img src={img} alt="" />
                 <h2>{name}</h2>
-                <p>Price:${price}</p>
+                <p>Price:{price}</p>
                 <div className="book-btn">
-                    <button>Add to cart</button>
+                    <button onClick={()=> handleToAddCart(book)} className='btn'>Add to cart</button>
                     
                 </div>
           

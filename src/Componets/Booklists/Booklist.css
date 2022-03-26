@@ -9,3 +9,42 @@
     gap: 30px;
     margin: 100px 50px;
 }
+.book-cart{
+    height: 500px;
+    background-color: rgb(243, 234, 157);
+    margin-top: 100px;
+    padding: 20px 20px;
+}
+.btn-chose{
+    display: grid;
+    grid-template-columns: 1;
+  
+ 
+    
+}
+.btn-1{
+    color: green;
+    font-size: 15px;
+    padding: 8px 10px;
+    border:1px solid green;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+.btn-1:hover{
+    background: orangered;
+}
+
+@media only screen and (max-width: 768px) {
+    .book-shop{
+        
+        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
+        overflow-x: hidden;
+        
+    }
+   .book-list{
+       flex-direction: column;
+       grid-template-columns: repeat(1,1fr);
+       overflow-x: hidden;
+   }
+  }
