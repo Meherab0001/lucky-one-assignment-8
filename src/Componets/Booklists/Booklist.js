@@ -7,6 +7,7 @@ import './Booklist.css'
 const Booklist = () => {
     const [books,setBooks]=useState([])
     const [cart,setCart]=useState([])
+    const [chsoe,setChose]=useState([])
 
 
     useEffect(()=>{
@@ -17,20 +18,52 @@ const Booklist = () => {
 
    
     const handleToAddCart =(books)=>{
-     
-        let newCart=[];
-        newCart=[...cart,books]
-       
-        setCart(newCart)
       
+        let newCart=[];
+        const exists=cart.find(book=>book.id==books.id)
+        if(exists){
+            
+            alert('already select')
+        }
+        else{
+            newCart=[...cart,books]
+           
+    
+        }
+      
+        if(cart.length ===4){
+            alert('can not select than more 4')
+        }
+        else{
+            newCart=[...cart,books]
+        }
+      
+       
+       
+       
+        
+             
+        
+
+      setCart(newCart)
    
        
     }
            
 
     const choseOne=()=>{
-        const randomNumber=Math.floor(Math.random() * 9)
         
+        
+        const chose=cart[Math.floor(Math.random() * cart.length)]
+    
+      
+        setChose(chose)
+        let newCart=[]
+        setCart(newCart)
+
+   
+      
+       
       
     }
 
@@ -57,7 +90,8 @@ const Booklist = () => {
             </div>
             <div className="book-cart">
                 <Cart 
-              choseOne={ choseOne}
+                chsoe={chsoe}
+              choseOne={choseOne}
                 resetAll={resetAll}
                 cart={cart}
               

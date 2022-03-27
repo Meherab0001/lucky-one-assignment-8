@@ -1,12 +1,13 @@
 import React from 'react';
 import './Cart.css'
 
-const Cart = ({ choseOne,resetAll,cart}) => {
+const Cart = ({chsoe, choseOne,resetAll,cart}) => {
+    
   
   
 
     
-    let bname=''
+    // let bname=''
 
 
   
@@ -20,15 +21,20 @@ const Cart = ({ choseOne,resetAll,cart}) => {
         <div>
              <div className="btn-chose">
              <h3>Chose book list</h3>
+          
                  {
                      cart.map(book=>
-                        <p key={book.id}>{book.name}</p>
+                        <p key={book.id}>{book.name}
+                        </p>
                         )
                  }
+                <div>
+                <p>{chsoe.name}  </p>
+               
+                </div>
             
-             <div className='book-name'>{bname}</div>
 
-                <button onClick={()=>choseOne()}  className='btn-1'>Chose 1 for read</button>
+                <button  onClick={()=>choseOne( )}  className='btn-1'>Chose 1 for read</button>
                 <button onClick={()=>resetAll()} className='btn-1'>Reset</button>
                </div>
         </div>
